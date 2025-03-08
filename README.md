@@ -1,7 +1,5 @@
 # TweaksForWindows10
 
-<div align="center">
-  <img src="https://i.imgur.com/DzvAhWc.png" alt="TweaksForWindows10 Logo" width="600">
   
   ![Windows 10](https://img.shields.io/badge/Windows-10-blue?logo=windows)
   ![License](https://img.shields.io/badge/License-MIT-green)
