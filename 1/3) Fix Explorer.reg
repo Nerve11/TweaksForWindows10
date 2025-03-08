@@ -1,0 +1,138 @@
+﻿Windows Registry Editor Version 5.00
+
+;Удалить пункты из контекстного меню
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shellex\ContextMenuHandlers\ModernSharing]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{7AD84985-87B4-4a16-BE58-8B72A5B390F7}]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\pintohome]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shellex\ContextMenuHandlers\Library Location]
+
+;Удалить пункты из контекстного меню "Создать"
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.bmp\ShellNew]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.contact\ShellNew]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.rtf\ShellNew]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.zip\ShellNew]
+
+;Уменьшить кнопки "Закрыть, Свернуть, Развернуть"
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"CaptionHeight"="-265"
+"CaptionWidth"="-265"
+
+;Сделать скролл - бар тоньше
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"ScrollHeight"="-210"
+"ScrollWidth"="-210"
+
+;Удаление папок из "Этот компьютер"
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}]
+
+;Удаление префикса "Ярлык для..."
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"link"=hex:00,00,00,00
+
+;Предварительная настройка Проводника
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"LongPathsEnabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\video]
+"Treatment"=dword:00000000
+"TypeOverlay"=""
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideFileExt"=dword:00000000
+"HideMergeConflicts"=dword:00000000
+"LaunchTo"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"EnableAutoTray"=dword:00000000
+
+;Отключить "Быстрый доступ"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"HubMode"=dword:00000001
+
+;Удалитиь контекстное меню "Отправить"
+[-HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\SendTo]
+
+;Отключить Контроль Учетных Записей
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableVirtualization"=dword:00000000
+"EnableInstallerDetection"=dword:00000000
+"PromptOnSecureDesktop"=dword:00000000
+"EnableLUA"=dword:00000000
+"EnableSecureUIAPaths"=dword:00000000
+"ConsentPromptBehaviorAdmin"=dword:00000000
+"ValidateAdminCodeSignatures"=dword:00000000
+"EnableUIADesktopToggle"=dword:00000000
+"ConsentPromptBehaviorUser"=dword:00000000
+"FilterAdministratorToken"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.bat\ShellNew]
+"Filename"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.reg\ShellNew]
+"Filename"=""
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nls\CodePage]
+"1251"="c_1251.nls"
+"1252"="c_1251.nls"
+"1253"="c_1251.nls"
+"1254"="c_1251.nls"
+"1255"="c_1251.nls"
+
+[-HKEY_CLASSES_ROOT\*\shell\TakeOwnership]
+
+[-HKEY_CLASSES_ROOT\*\shell\TakeOwnership\command]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\TakeOwnership]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\TakeOwnership\command]
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSpeed"="0"
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+"AutoRepeatDelay"="0"
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"UseOLEDTaskbarTransparency"=dword:00000001
+
+;Добавить значок "Этот компьютер" на рабочий стол
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"JPEGImportQuality"=dword:00000064
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"AltTabSettings"=dword:00000001
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\BIOS]
+"MUIVerb"="BIOS"
+"SubCommands"=""
+"Icon"="bootux.dll,-1032"
+"Position"="Top"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\BIOS\Shell\01BIOS]
+@="Перезагрузить в BIOS"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\BIOS\Shell\01BIOS\Command]
+@="shutdown.exe /r /fw"

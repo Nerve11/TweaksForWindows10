@@ -1,0 +1,367 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:0000000a
+"SystemResponsiveness"=dword:0000000a
+"NoLazyMode"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling]
+"PowerThrottlingOff"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:0000002a
+
+
+[-HKEY_CURRENT_USER\System\GameConfigStore\Children]
+[-HKEY_CURRENT_USER\System\GameConfigStore\Parents]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR]
+"value"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR]
+"AppCaptureEnabled"=dword:00000000
+
+HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\PublicProfile]
+"EnableFirewall"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile]
+"EnableFirewall"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\DomainProfile]
+"EnableFirewall"=dword:00000000
+"DisableNotifications"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance]
+"MaintenanceDisabled"=dword:00000001
+"DontShowUI"=dword:00000001
+"DontSendAdditionalData"=dword:00000001
+"LoggingDisabled"=dword:00000001
+
+[-HKEY_LOCAL_MACHINE\SYSTEM\Maps]
+[-HKLM\SOFTWARE\Policies\Microsoft\Windows\Maps]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCortana"=dword:00000000
+"AllowCortanaAboveLock"=dword:00000000
+"AllowCloudSearch"=dword:00000000
+"AllowSearchToUseLocation"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+"SearchboxTaskbarMode"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\Experience\AllowCortana]
+"value"=dword:00000000
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnableBootTrace"=dword:00000000
+"EnablePrefetcher"=dword:00000000
+"EnableSuperfetch"=dword:00000000
+"SfTracingState"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"DisableDeleteNotification"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FontCache]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SysMain]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Input\Settings\ControllerProcessor\CursorSpeed]
+"CursorUpdateInterval"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\EnergyEstimation\TaggedEnergy]
+"TelemetryMaxApplication"=dword:00000000
+"TelemetryMaxTagPerApplication"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Reliability]
+"TimeStampInterval"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MRT]
+"DontReportInfectionInformation"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseHoverTime"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\System\AllowExperimentation]
+"value"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\LocationAndSensors]
+"DisableWindowsLocationProvider"=dword:00000001
+"DisableLocationScripting"=dword:00000001
+"DisableLocation"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableSoftLanding"=dword:00000001
+"DisableTailoredExperiencesWithDiagnosticData"=dword:00000001
+"DisableThirdPartySuggestions"=dword:00000001
+"DisableWindowsConsumerFeatures"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"AllowClipboardHistory"=dword:00000000
+"EnableActivityFeed"=dword:00000000
+"PublishUserActivities"=dword:00000000
+"UploadUserActivities"=dword:00000000
+"DisableLogonBackgroundImage"=dword:00000001
+"EnableCdp"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableNotificationCenter"=dword:00000001
+"DisableSearchBoxSuggestions"=dword:00000001
+"DisableThumbsDBOnNetworkFolders"=dword:00000001
+"EnableLegacyBalloonNotifications"=dword:00000000
+"HidePeopleBar"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000000
+"EnableSuperfetch"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000000
+"EnableSuperfetch"=dword:00000000
+
+;Настройка системных таймаутов
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"AutoEndTasks"="1"
+"HungAppTimeout"="1000"
+"WaitToKillAppTimeout"="2000"
+"LowLevelHooksTimeout"="1000"
+"MenuShowDelay"="0"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="2000"
+
+;Вместо грустного смайлика BSOD показывать детали проблемы
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CrashControl]
+"DisplayParameters"=dword:00000001
+
+;Отключить просмотр журналов
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\FTH]
+"Enabled"=dword:00000000
+
+;Отключить функции вызова залипания клавиш
+[HKEY_CURRENT_USER\Control Panel\Accessibility]
+"Sound on Activation"=dword:00000000
+"Warning Sounds"=dword:00000000
+"StickyKeys"="506"
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
+"Flags"="2"
+
+;Отключить функции вызова переключения клавиш
+[HKEY_CURRENT_USER\Control Panel\Accessibility\ToggleKeys]
+"Flags"="34"
+
+;Отключить функции вызова клавиш фильтрации
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+"DelayBeforeAcceptance"="0"
+"AutoRepeatRate"="0"
+"AutoRepeatDelay"="0"
+"Flags"="2"
+
+;Настройка параметров "Удобный доступ"
+[HKEY_CURRENT_USER\Control Panel\Accessibility\HighContrast]
+"Flags"="4218"
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\MouseKeys]
+"Flags"="130"
+"MaximumSpeed"="39"
+"TimeToMaximumSpeed"="3000"
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\SoundSentry]
+"Flags"="0"
+"FSTextEffect"="0"
+"TextEffect"="0"
+"WindowsEffect"="0"
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\SlateLaunch]
+"ATapp"=""
+"LaunchAT"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Superfetch/Main]
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Superfetch/PfApLog]
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Superfetch/StoreLog]
+"Enabled"=dword:00000000
+
+[HKEY_USERS\.DEFAULT\Control Panel\Mouse]
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations]
+".tif"="PhotoViewer.FileAssoc.Tiff"
+".tiff"="PhotoViewer.FileAssoc.Tiff"
+".jpg"="PhotoViewer.FileAssoc.Tiff"
+".png"="PhotoViewer.FileAssoc.Tiff"
+".jpeg"="PhotoViewer.FileAssoc.Tiff"
+".bmp"="PhotoViewer.FileAssoc.Tiff"
+".jpe"="PhotoViewer.FileAssoc.Tiff"
+".jfif"="PhotoViewer.FileAssoc.Tiff"
+".dib"="PhotoViewer.FileAssoc.Tiff"
+".ico"="PhotoViewer.FileAssoc.Tiff"
+".gif"="PhotoViewer.FileAssoc.Tiff"
+".tga"="PhotoViewer.FileAssoc.Tiff"
+
+;Удалить префикс "Ярлык для..." и т.д.
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"link"=hex:00,00,00,00
+
+;Сбросить вид папок
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags]
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU]
+
+;Удалить правила брандмауэра
+[-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\FirewallRules]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\FirewallRules]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Serialize]
+"Startupdelayinmsec"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Speech]
+"AllowSpeechModelUpdate"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"DisableAutomaticRestartSignOn"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableNotificationCenter"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableNotificationCenter"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\PushNotifications]
+"ToastEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\PushNotifications]
+"ToastEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CurrentVersion\PushNotifications]
+"NoToastApplicationNotification"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
+"AITEnable"=dword:00000000
+"DisableInventory"=dword:00000001
+"DisableUAR"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager]
+"ProtectionMode"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel]
+"DistributeTimers"=dword:00000001
+; Additional kernel optimizations
+"DpcWatchdogPeriod"=dword:00000000
+"DpcTimeout"=dword:00000000
+"ThreadDpcEnable"=dword:00000001
+"GlobalTimerResolutionRequests"=dword:00000001
+
+; Disable fullscreen optimizations
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_Enabled"=dword:00000000
+"GameDVR_FSEBehavior"=dword:00000002
+"GameDVR_FSEBehaviorMode"=dword:00000002
+"GameDVR_HonorUserFSEBehaviorMode"=dword:00000000
+"GameDVR_DXGIHonorFSEWindowsCompatible"=dword:00000000
+"GameDVR_EFSEFeatureFlags"=dword:00000000
+"GameDVR_DSEBehavior"=dword:00000002
+
+; Mouse optimization
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSensitivity"="10"
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
+"SmoothMouseXCurve"=hex:00,00,00,00,00,00,00,00,C0,CC,0C,00,00,00,00,00,80,99,19,\
+  00,00,00,00,00,40,66,26,00,00,00,00,00,00,33,33,00,00,00,00,00
+"SmoothMouseYCurve"=hex:00,00,00,00,00,00,00,00,00,00,38,00,00,00,00,00,00,00,70,\
+  00,00,00,00,00,00,00,A8,00,00,00,00,00,00,00,E0,00,00,00,00,00
+
+; Advanced network optimizations
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TcpAckFrequency"=dword:00000001
+"TCPNoDelay"=dword:00000001
+"TcpDelAckTicks"=dword:00000000
+"DefaultTTL"=dword:00000040
+"EnablePMTUDiscovery"=dword:00000001
+"EnablePMTUBHDetect"=dword:00000000
+"GlobalMaxTcpWindowSize"=dword:00065535
+"TcpMaxDupAcks"=dword:00000002
+"SackOpts"=dword:00000001
+
+; GPU/Graphics optimizations
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
+"Affinity"=dword:00000000
+"Background Only"="False"
+"Clock Rate"=dword:00002710
+"GPU Priority"=dword:00000008
+"Priority"=dword:00000006
+"Scheduling Category"="High"
+"SFIO Priority"="High"
+"Latency Sensitive"="True"
+
+; Advanced process scheduling
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl]
+"IRQ8Priority"=dword:00000001
+"IRQ16Priority"=dword:00000002
+
+; Memory management optimizations
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"LargeSystemCache"=dword:00000000
+"DisablePagingExecutive"=dword:00000001
+"SystemPages"=dword:00000000
+"SessionViewSize"=dword:00000030
+"FeatureSettingsOverride"=dword:00000003
+"FeatureSettingsOverrideMask"=dword:00000003
+
+; Disable HPET (High Precision Event Timer) - reduces latency
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TcpIp\Parameters]
+"DisableTaskOffload"=dword:00000001
+
+; Storage optimization
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"NtfsDisable8dot3NameCreation"=dword:00000001
+"NtfsDisableLastAccessUpdate"=dword:00000001
+"NtfsMftZoneReservation"=dword:00000002
+"Win31FileSystem"=dword:00000000
+
+; Disable background apps
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications]
+"GlobalUserDisabled"=dword:00000001
+
+; Disable hardware acceleration for animations
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"TaskbarAnimations"=dword:00000000
+"DisablePreviewDesktop"=dword:00000001
+"IconsOnly"=dword:00000001
+"ListviewAlphaSelect"=dword:00000000
+"ListviewShadow"=dword:00000000
+"TaskbarAnimations"=dword:00000000
+
+; Disable visual effects for performance
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\DWM]
+"EnableAeroPeek"=dword:00000000
+"AlwaysHibernateThumbnails"=dword:00000000
+
+; Optimize processor scheduling
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:00000026
+
+; Disable power throttling for gaming
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\0cc5b647-c1df-4637-891a-dec35c318583]
+"ValueMin"=dword:00000000
+"ValueMax"=dword:00000000
+"Attributes"=dword:00000001
+
+; Disable telemetry that impacts performance
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+"DoNotShowFeedbackNotifications"=dword:00000001
+
+; Optimize power plan for gaming
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"HibernateEnabled"=dword:00000000
+"CsEnabled"=dword:00000000
